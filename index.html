@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>MQ Photonics Simulator</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+		<script type="text/javascript">
+			var flashvars = {};
+			var params = {};
+			var attributes = {};
+			
+
+			swfobject.embedSWF("Simulator.swf", "myAlternativeContent", "100%", "100%", "9.0.0", false, flashvars, params, attributes);
+		</script>
+		
+		<style type="text/css">
+        html {
+            font-family: Arial, sans-serif;
+        }
+		body {
+            margin: 0px;
+            padding: 10px;
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 10px;
+            height: 100vh;
+            box-sizing: border-box;
+		}
+        h1 {
+            padding: 0px;
+            margin: 0px;
+        }
+        details {
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            padding: 0.5em 0.5em 0;
+            max-width: 90vw;
+        }
+        summary {
+            font-weight: bold;
+            margin: -0.5em -0.5em 0;
+            padding: 0.5em;
+        }
+        details[open] {
+            padding: 0.5em;
+        }
+        details[open] summary {
+            border-bottom: 1px solid #aaa;
+            margin-bottom: 0.5em;
+        }
+        details p:first-of-type {
+            margin-top: 0px;
+        }
+        details p:last-of-type {
+            margin-bottom: 0px;
+        }
+        #myAlternativeContent {
+            flex: 1 1 auto;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: stretch;
+            background-color: #f3f3f3;
+            padding: 1rem;
+            min-height: 10%;
+        }
+		</style>
+	</head>
+	<body>
+        <details id="blurb" open>
+          <summary id="blurb-header">Click to close</summary>
+          <p>
+          This is a restored version of the <b>Photonic Simulator</b> originally developed as a Flash game at Macquarie University.
+          </p>
+          <p>
+            Most of the game should work as intended.
+            However, the informational videos appear to crash the game.
+            If you wish to view them, please try the following links instead:
+            <ul>
+                <li><a href="intro.flv">Getting Started</a></li>
+                <li><a href="router_campbell.flv">A Photonic Router</a></li>
+            </ul>
+          </p>
+        </details>
+		<div id="myAlternativeContent">
+			<p>Please use a modern browser (like <a href="http://www.google.com/chrome">Google Chrome</a> or <a href="http://www.mozilla.com/en-US/firefox/new/">Mozilla Firefox</a>) with JavaScript enabled to view the content. You will also need Flash player installed. You can download it for free here:</p>
+			<a href="http://www.adobe.com/go/getflashplayer">
+				<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+			</a>
+		</div>
+	</body>
+</html>
